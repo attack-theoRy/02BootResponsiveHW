@@ -9,6 +9,34 @@ body {
     background-repeat : no-repeat;
 }
 
+.container {
+    margin: 0px ;
+    max-width: 992px;
+    padding: 20px 20px;
+  }
+
+  /* images for gallery */
+  .responsive-image {
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+  }
+
+  .cell img {
+    display: block;
+  }
+
+  /* change to to one column as screen gets smaller */
+  @media screen and (min-width: 768px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cell {
+      width: 50%;
+    }
+  }
+
 .contact-title{
     margin-top: 100px;
 
@@ -18,6 +46,13 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
      color : silver;
 
+}
+
+h3
+{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: goldenrod
 }
 
 section{
@@ -36,7 +71,7 @@ form{
     border: 10px;
     outline: 20px;
     border-bottom: 1px solid gray;
-    color: #fff;
+    color: rgb(124, 25, 25);
     font-size: 18px;
     margin-bottom: 16px;
 }
