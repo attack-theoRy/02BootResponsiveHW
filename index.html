@@ -22,7 +22,7 @@
 
     <!--adding responsive navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-right style="background-color:#black;">
-        <a class="navbar-brand" href="#">Pirooz Wallace</a>
+        <a class="navbar-brand" href="index.html">Pirooz Wallace</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,6 +43,7 @@
       </nav>
       <!--End navbar-->
 
+      <!--Bootstrap responsive grid system-->
     <div class="container"></div>
     <div class = "row">
         <div class = "col-md-8">  
@@ -51,18 +52,24 @@
             </div>
             <div class ="row">
                 <div class=col-md-3>
-                <img src= "Assets\Images\profile.jpg" alt="Pirooz in a mask" style="width:300px" align="left">
-            </div>
-  <!--          <div class="col-md-9"> -->
-                <section>
-                  I am an open-minded and creative being. Ruthlessly analytical and yet immensely generous and caring.
-                  I like to challenge people for fun and enjoy poking holes in all arguments even my own. I am
-                  here to make something of myself. I have all the "social medias", but use none of them, you
-                  can find me on twitch chatrooms parroting memes pretending to be clever.
-                </section>
+                  <!--Responsive image (img-fluid)-->
+                <img src= "Assets\Images\profile.jpg" alt="Pirooz in a mask" class="img-fluid">
+              </div>
+                  <div class="col-12 col-md-9">
+                    <!--Short narcissistic description-->
+                    <section>
+                      Open-minded, creative and ruthlessly analytical, tremendously generous and a perpetual
+                      procrastinator. I am on all the "social medias", but use none of them, you can find
+                      me on twitch parroting memes pretending to be clever. I got my bachelor's in computer
+                      science at Full Sail University in Florida with a specialization in game development. 
+                      One of these days I may even use my education! 
+                     </section>
+                  </div>
+                
                 </div>
             </div>
             </div>
+            <!--Details drop-down-->
                     <details>
                       I like making stuff.
                       PiroozWallace@outlook.com
@@ -87,3 +94,4 @@
     
 </body>
 </html>
+
